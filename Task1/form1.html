@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Student information</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app.css'>
+</head>
+<body>
+  <h1> Student Information</h1>
+    <form class= "student" action="/sub.html" method="GET" enctype="multipart/form-data">
+        <div class="in">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+      </div>
+      <div class="in">
+        <label for="ID">Student ID</label>
+        <input type="text" name="ID" id="ID" required>
+    </div>
+      <div class="in">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="in">
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date" id="date" required>
+      </div>
+      <div>
+        Subjects taken this semester
+        <div class="subjects">
+            <div>
+          <input type="checkbox" name="sub" id="math" value="math">
+          <label for="math">Mathematics</label>
+          </div>
+          <div>
+          <input type="checkbox" name="sub" id="phy" value="phy">
+          <label for="phy">Physics</label>
+          </div>
+          <div>
+            <input type="checkbox" name="sub" id="chem" value="chem">
+            <label for="chem">Chemistry</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sub" id="bio" value="bio">
+                <label for="bio">Biology</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sub" id="com" value="com">
+                <label for="com">Computer</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sub" id="psy" value="psy">
+                <label for="psy">Psychology</label>
+            </div>
+        </div>
+      </div>
+      <div class="gen">
+        <label for="gender" >Gender</label>
+        <div >
+        <select name="gender" id="gender" multiple>
+          <option value="male">male</option>
+          <option label="female" value="female"></option>
+          <option value="male">prefer not to say</option>
+        </select>
+        </div>
+      </div>
+      <div class="in">
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    
+    
+</body>
+</html>

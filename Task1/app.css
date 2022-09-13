@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+html {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: url("https://s17189.pcdn.co/blog/wp-content/uploads/2020/05/types-of-student-loans.jpg");
+    
+}
+.student{
+    top:55%;
+    left:30%;
+    height:1000px;
+    width: 400px;
+    background-color: #efefef;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(124, 120, 120);
+    font-size:larger;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.btn{
+    top:155%;
+    left:47%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 8;
+    text-align: bottom;
+    background-color: #eecccc;
+    color:black;
+    padding: 6px;
+    border: 1px black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgb(240, 238, 234);
+}
+input{
+  display: block;
+  width: 397px;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 150px;
+  align-items: center;
+}
+
+.subjects{
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+#gender{
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  -moz-box-align: center;
+  text-align: left;
+}
